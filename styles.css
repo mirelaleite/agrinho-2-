@@ -1,0 +1,107 @@
+/* Reset básico */
+body, h1, h2, p, ul, li, figure {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eaf7e3; /* Cor suave de fundo, lembra campo */
+    color: #333;
+}
+
+header {
+    background: #4caf50; /* Verde vibrante */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    background: #388e3c; /* Verde escuro */
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #388e3c; /* Verde escuro */
+}
+
+.imagem-principal {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.galeria {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.galeria figure {
+    flex: 1;
+    margin: 0;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+footer {
+    background: #4caf50; /* Verde vibrante */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #ffb300; /* Amarelo vibrante */
+}
+
+a:hover {
+    text-decoration: underline;
+}
